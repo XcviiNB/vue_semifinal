@@ -21,13 +21,15 @@
         position: absolute;
         left: 2%;
         top: 33%;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .sa:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in-out 0.25s;
         border: 3px solid red;
+        border-radius: 30px;
     }
 
     .hassan{
@@ -36,13 +38,15 @@
         position: absolute;
         left: 35%;
         top: 33%;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .hassan:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in-out 0.25s;
         border: 3px solid blue;
+        border-radius: 30px;
     }
 
     .ka{
@@ -51,12 +55,14 @@
         position: absolute;
         right: 2%;
         top: 33%;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .ka:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in-out 0.25s;
         border: 3px solid gold;
+        border-radius: 30px;
     }
 </style>

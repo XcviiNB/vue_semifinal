@@ -20,13 +20,15 @@
         position: absolute;
         left: 2%;
         top: 33%;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .sc:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in-out 0.25s;
         border: 3px solid rgb(197, 131, 16);
+        border-radius: 30px;
     }
 
     .gg{
@@ -35,13 +37,15 @@
         position: absolute;
         left: 35%;
         top: 33%;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .gg:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in-out 0.25s;
         border: 3px solid gold;
+        border-radius: 30px;
     }
 
     .jjcs{
@@ -50,12 +54,14 @@
         position: absolute;
         right: 2%;
         top: 33%;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .jjcs:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in-out 0.25s;
         border: 3px solid rgb(168, 238, 48);
+        border-radius: 30px;
     }
 </style>

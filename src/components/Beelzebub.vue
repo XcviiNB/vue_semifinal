@@ -20,14 +20,15 @@
         position: absolute;
         left: 2%;
         top: 33%;
-        transition: ease-out 0.50s;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .bbo:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in 0.20s;
         border: 3px solid green;
+        border-radius: 30px;
     }
 
     .beel{
@@ -36,14 +37,15 @@
         position: absolute;
         left: 35%;
         top: 33%;
-        transition: ease-out 0.50s;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
 
     .beel:hover{
-        height: 48%;
-        width: 29%;
+        top: 30%;
         transition: ease-in 0.20s;
         border: 3px solid green;
+        border-radius: 30px;
     }
 
     .aoi{
@@ -52,13 +54,14 @@
         position: absolute;
         right: 2%;
         top: 33%;
-        transition: ease-out 0.50s;
+        border-radius: 20px;
+        transition: ease-out 0.25s;
     }
     
     .aoi:hover{
-        width: 29%;
-        height: 48%;
+        top: 30%;
         transition: ease-in 0.20s;
         border: 3px solid green;
+        border-radius: 30px;
     }
 </style>
